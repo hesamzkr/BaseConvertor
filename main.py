@@ -1,4 +1,4 @@
-BASE = 7
+BASE = int(input("Enter base you want to convert to : "))
 
 
 def to_normal(number):
