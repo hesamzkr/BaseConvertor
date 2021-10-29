@@ -16,7 +16,7 @@ def to_base(number_str, base=BASE):
     thedigits = []
     while number:
           thedigits.append(int(number % base))
-          number = math.floor(number/base)
+          number //= base
     return thedigits[::-1]
 
 def main():
